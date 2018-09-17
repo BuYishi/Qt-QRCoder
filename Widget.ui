@@ -17,18 +17,29 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>2</number>
+      <number>0</number>
      </property>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="widget">
       <attribute name="title">
        <string>Encode</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout" stretch="2,10,1">
        <item>
-        <widget class="QPlainTextEdit" name="textToEncodeTextEdit"/>
+        <widget class="QPlainTextEdit" name="textToEncodeTextEdit">
+         <property name="plainText">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>在此输入要编码的文本</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QLabel" name="encodedLabel"/>
+        <widget class="QLabel" name="encodedLabel">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -66,7 +77,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="widget">
       <attribute name="title">
        <string>Deocde</string>
       </attribute>
@@ -121,7 +132,7 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="widget">
       <attribute name="title">
        <string>Author</string>
       </attribute>

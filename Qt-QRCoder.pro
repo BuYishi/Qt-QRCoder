@@ -32,3 +32,7 @@ HEADERS += \
 
 FORMS += \
         Widget.ui
+
+INCLUDEPATH += include
+
+LIBS += E:/Workbench/Qt-QRCoder/QZXing2.dll
