@@ -54,3 +54,6 @@ FORMS += \
         Widget.ui
 
 DEFINES += HAVE_CONFIG_H
+
+RESOURCES += \
+    Resource.qrc
